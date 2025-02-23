@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 root2s=['bsr-r34r18c10-omz8']
 
-root1='/wxw2/syf/projects/BSR/run/'
+root1='BSR/run/'
 
 model_name='resnet34'  # model
 dataset='cifar10'  # dataset
