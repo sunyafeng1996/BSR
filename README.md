@@ -44,6 +44,12 @@ python show_points_ablation.py
 - This python program will use the trained student model to obtain low dimensional features of the image, which are stored in a CSV file. Please manually move these files into show_result/ablation_points/. We have uploaded the feature files to this repository and you can also use our results directly.
 **Finally, you need to run the ablation.m file using matlab to get the TSNE visualisation figure.**
 2. For the visualisation of hyperparameters, we have integrated the results for different parameter values into the file show_result/hyperparameters/hp.m, which you can run directly with matlab to get the figures.
+  
+# Dataset link
+- CIFAR https://www.cs.toronto.edu/~kriz/cifar.html
+- SVHN http://ufldl.stanford.edu/housenumbers/
+- ImageNet100 and ImageNette2 https://image-net.org/
+  
 # Experiments
 ### Comparison with SOTA DFKDs on CIFAR-10
 
