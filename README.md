@@ -33,7 +33,7 @@ The proposed method is called BSR. It's pipeline as shown is follows.
 
 You can execute the code in scripts/bsr.sh to reproduce the results of this article. Note that you must change the *data_root* parameter in order for the program to recognize the dataset.
 
-# Visualisation
+# Visualization
 
 You can use the **show_result** folder to visualise the images in your paper. Visualisations of ablation experiments and hyperparameters are provided here.
 1. For the ablation experiment, you need to follow the instructions in the previous section to get a trained stuent, then running:
