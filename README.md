@@ -36,14 +36,14 @@ You can execute the code in scripts/bsr.sh to reproduce the results of this arti
 # Visualization
 
 You can use the **show_result** folder to visualise the images in your paper. Visualisations of ablation experiments and hyperparameters are provided here.
-1. For the ablation experiment, you need to follow the instructions in the previous section to get a trained stuent, then running:
+1. For the ablation experiment, you need to follow the instructions in the previous section to get a trained student, then running:
 ```bash
 python show_points_ablation.py
 ```
 - Of course, you have to modify the model architecture, dataset and other parameters in **show_points_ablation.py**.
 - This python program will use the trained student model to obtain low dimensional features of the image, which are stored in a CSV file. Please manually move these files into show_result/ablation_points/. We have uploaded the feature files to this repository and you can also use our results directly.
-**Finally, you need to run the ablation.m file using matlab to get the TSNE visualisation figure.**
-2. For the visualisation of hyperparameters, we have integrated the results for different parameter values into the file show_result/hyperparameters/hp.m, which you can run directly with matlab to get the figures.
+**Finally, you need to run the ablation.m file using Matlab to get the TSNE visualisation figure.**
+2. For the visualisation of hyperparameters, we have integrated the results for different parameter values into the file show_result/hyperparameters/hp.m, which you can run directly with Matlab to get the figures.
   
 # Dataset link
 - CIFAR https://www.cs.toronto.edu/~kriz/cifar.html
